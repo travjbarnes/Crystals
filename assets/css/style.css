@@ -1,14 +1,25 @@
 /* General Elements*/
-body{
-	background-image: url("../images/background.png")
+	body
+	{
+	background-image: url("C:/Users/Travis/Desktop/Crystals-master/assets/images/background.png") 
+	no-repeat center center fixed;
+        background-size: cover;
 }
+
+/*html { 
+			background-image: url("..images/background.png") no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		} */
 div{
 	background-color: white;
 	margin: 10px;
 	width: 25%
 }
 div{
-	border: solid 2px antiquewhite;
+	border: solid 2px white;
 	padding: 10px;
 }
 h1, h3, span{
@@ -27,7 +38,7 @@ ul {
 }
 /* Specfic Elements*/
 div.header, div.gems{
-	background-color: #e0e0eb;
+	background-color: white;
 }
 div.header, div.instructions{
 	width: 50%;
@@ -61,4 +72,46 @@ div.header, div.instructions{
 }
 #yellow{
 	color: #ffc225;
+}
+
+body {
+  font-family: 'Inder', sans-serif; line-height: 28px; margin-bottom: 15px; color: #666
+  background-size: 960px;
+  
+  padding: 40px;
+  overflow-x: hidden; /* For Opera */
+  -webkit-box-shadow:
+  inset #19d4ff 0 0 0 5px,
+  inset #18cdf7 0 0 0 1px,
+  inset #53dfff 0 0 0 10px,
+  inset #50d8f7 0 0 0 11px,
+  inset #8ce9ff 0 0 0 16px,
+  inset #88e2f7 0 0 0 17px,
+  inset #c5f4ff 0 0 0 22px,
+  inset #bfecf7 0 0 0 23px;
+
+  -moz-box-shadow:
+  inset #19d4ff 0 0 0 5px,
+  inset #18cdf7 0 0 0 1px,
+  inset #53dfff 0 0 0 10px,
+  inset #50d8f7 0 0 0 11px,
+  inset #8ce9ff 0 0 0 16px,
+  inset #88e2f7 0 0 0 17px,
+  inset #c5f4ff 0 0 0 22px,
+  inset #bfecf7 0 0 0 23px;
+
+  box-shadow:
+  inset #19d4ff 0 0 0 5px,
+  inset #18cdf7 0 0 0 1px,
+  inset #53dfff 0 0 0 10px,
+  inset #50d8f7 0 0 0 11px,
+  inset #8ce9ff 0 0 0 16px,
+  inset #88e2f7 0 0 0 17px,
+  inset #c5f4ff 0 0 0 22px,
+  inset #bfecf7 0 0 0 23px;
+}
+
+nav {
+background-color: #5451FF;
+color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
 }
